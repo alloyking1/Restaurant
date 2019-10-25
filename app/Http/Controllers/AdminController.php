@@ -10,7 +10,7 @@ class AdminController extends Controller
      * Handles all admin functionalities
      */
 
-    public function Logistics(){
-        return view('admin/logisticsUi');
+    public function Index(){
+        return view('admin/AdminUi');
     }
 }
